@@ -1,0 +1,26 @@
+.Pokemon-card {
+    /* border: 1px solid black; */
+    margin: 22px;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 250px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2), 0 8px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.Pokemon-details h1, .Pokemon-details p, .Pokemon-details img  {
+    text-align: center;
+}
+
+.Pokemon-details h1 {
+    margin: 1px;
+}
+
+.Pokemon-details p {
+    margin: 5px
+}
+
+.Pokemon-details img {
+    padding: 0px;
+}
