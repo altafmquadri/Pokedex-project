@@ -11,7 +11,7 @@ class Pokecard extends Component {
             <div className='Pokemon-card'>
                 <div className='Pokemon-details'>
                     <h1>{name}</h1>
-                    <img src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${changePadding(id)}.png`}/>
+                    <img alt="poke" src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${changePadding(id)}.png`}/>
                     <p>Type: {type}</p>
                     <p>Exp: {base_experience}</p>
                 </div>

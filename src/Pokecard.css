@@ -20,10 +20,12 @@
 
 .Pokemon-details h1 {
     margin: 1px;
+    color: black;
 }
 
 .Pokemon-details p {
-    margin: 5px
+    margin: 5px;
+    color:#58595B;
 }
 
 .Pokemon-details img {

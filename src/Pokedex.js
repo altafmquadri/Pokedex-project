@@ -22,11 +22,13 @@ class Pokedex extends Component {
         })
     }
     render() { 
+        
         return ( 
-            <div style={{textAlign:"center"}}>
-                <h1>Pokedex</h1>
+            <div style={{textAlign:"center", backgroundColor: 'black' , color: 'white'}}>
+                <h1>Pokedex {this.props.total}</h1>
                 <div className="Pokedex-container">
                     {this.renderPokemon()}
+                    {this.props.isWinner ? <h1 style={{color: 'green'}}>This hand wins!!</h1>: false}
                 </div>
             </div>
         )
